@@ -95,7 +95,7 @@ figure {
     color: white;
     background-color: #424847;
 }
-#btn-inp{
+#btnInp1,#btnInp2,#btnInp3{
     flex: 3;
     margin-top:0px;
      width:20%; 
