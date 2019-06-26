@@ -7,6 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
+   
 </head>
 
 <body>
@@ -19,8 +20,8 @@
         </label>
     </div>
     <div id="total">
-        <label>Your total is Rs.
-            <span>0</span>
+        <label >Your total is Rs.
+            <span id="amount">0</span>
         </label>
     </div>
     <section>
@@ -32,9 +33,9 @@
                     <figcaption>Apple</figcaption>
                 </figure>
                 <div id="btn">
-                    <button id="minus">-</button>
-                    <input type="number" id="btn-inp" min="0">
-                    <button id="plus">+</button>
+                    <button id="minus" onClick="decrementApple()" class="decrement">-</button>
+                    <input type="number" id="btnInp1" name="txtApple" value="0" >
+                    <button id="plus" onClick="incrementApple()" class="increment">+</button>
                 </div>
             </div>
             <div class="fruit">
@@ -44,9 +45,9 @@
                     <figcaption>Orange</figcaption>
                 </figure>
                 <div id="btn">
-                    <button id="minus">-</button>
-                    <input type="number" id="btn-inp" min="0">
-                    <button id="plus">+</button>
+                    <button id="minus" onClick="decrementOrange()">-</button>
+                    <input type="text" id="btnInp2" name="txtOrange" value="0">
+                    <button id="plus" onClick="incrementOrange()">+</button>
                 </div>
             </div>
             <div class="fruit">
@@ -56,9 +57,9 @@
                     <figcaption>Banana</figcaption>
                 </figure>
                 <div id="btn">
-                    <button id="minus">-</button>
-                    <input type="number" id="btn-inp" min="0">
-                    <button id="plus">+</button>
+                    <button id="minus" onClick="decrementBanana()">-</button>
+                    <input type="text" id="btnInp3" name="txtBanana" value="0">
+                    <button id="plus" onClick="incrementBanana()">+</button>
                 </div>
             </div>
         </div>
