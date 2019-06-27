@@ -16,7 +16,7 @@ function decrementApple(){
 function incrementApple() {
 	Income=document.getElementById("rs").value;
 	tAmount=(q1*10)+(q2*15)+(q3*7);
-	if(tAmount>=Income)
+	if(Income <= tAmount + 10)
 	{
 		alert("Not Enough Money");
 	}else
@@ -54,7 +54,7 @@ function decrementOrange(){
 function incrementOrange() {
 	Income=document.getElementById("rs").value;
 	tAmount=(q1*10)+(q2*15)+(q3*7);
-	if(tAmount>=Income)
+	if(Income <= tAmount + 15)
 	{
 		alert("Not Enough Money");
 	}else
@@ -76,7 +76,7 @@ function decrementBanana(){
 function incrementBanana() {
 	Income=document.getElementById("rs").value;
 	tAmount=(q1*10)+(q2*15)+(q3*7);
-	if(tAmount>=Income)
+	if(Income <= tAmount + 7)
 	{
 		alert("Not Enough Money");
 	}else
