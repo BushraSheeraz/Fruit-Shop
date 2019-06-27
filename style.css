@@ -47,15 +47,17 @@ align-items: center;
     font-size: 40px;
 }
 #last-sec{
-    height: 300px;
+    height: auto;
     background-image: linear-gradient(rgb(57,62,63), rgb(97,105,125), rgb(57,62,63));
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
     align-items: center;
+    padding: 40px;
 
 }
 .fruit{
+    margin: 20px;
     display: flex;
     flex-direction: column;
     text-align: center;
